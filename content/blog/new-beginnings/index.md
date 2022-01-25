@@ -1,105 +1,45 @@
 ---
-title: Descubriendo medicinas con python
+title: Cómo descubrir nuevas medicinas con Python
 date: "2022-01-24T22:40:32.169Z"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: Los ensayos farmacológicos y gran parte del desarrrollo de nuevas medicinas se está transformando con la accesibilidad de herramientas e información al alcance de todos.  
 ---
 
-El paradigma dominante en el descubrimiento de fármacos es el concepto de diseñar ligandos de máxima selectividad para actuar sobre objetivos específicos. Sin embargo, muchos fármacos eficaces actúan mediante la modulación de múltiples proteínas en lugar de targets únicos.
+El paradigma dominante en el descubrimiento de fármacos y que es inmutable con el pasar del tiempo es el concepto de diseñar ligandos (moleculas no tan grandes) para actuar sobre objetivos específicos (Targets). Pueden crearse ligandos de gran afinidad u otros mas "generalistas", estos últimos mas populares en la actualidad.
 
 ## Chembl y PubChem 
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Estos son 2 de las bases de datos mas populares que se encuentran en la web con informacion de todo tipo de proteinas, enzimas u otras moleculas relacionadas a ensayos clinicos y farmacologicos. Algunas estan en fases mas avanzadas, otras son incipientes pero con gran potencial.
 
-- This however showed weasel
-- Well uncritical so misled
-  - this is very interesting
-- Goodness much until that fluid owl
+### Python como protagonista
 
-When she reached the first hills of the **Italic Mountains**, she had a last
-view back on the skyline of her hometown _Bookmarksgrove_, the headline of
-[Alphabet Village](http://google.com) and the subline of her own road, the Line
-Lane. Pityful a rhetoric question ran over her cheek, then she continued her
-way. On her way she met a copy.
+No es un secreto que Python es el lenguaje de programacion de la Ciencia por excelencia. Con comandos básicos y otros no tanto se pueden extraer los datos de las moleculas con las que se va a trabajar, organizar, transformar, analizar, visualizar y modelar. 
 
-### Overlaid the jeepers uselessly much excluding
+> Es importante tener conocimiento del dominio además de leer e investigar del tema.
+> Conceptos escenciales, las fases de los ensayos clinicos y otra información
+> relevante no está de mas.
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with
-[Longe and Parole](http://google.com) and dragged her into their agency, where
-they abused her for their projects again and again. And if she hasn’t been
-rewritten, then they are still using her.
+Existen librerias de Python que facilitan la labor. RDKit es una de ellas. Con este paquete es mas fecil manipular y modelar las distintas estructuras moleculares. Si la vas a usar sera una buena herramienta para incursionar en el campo de la quimioinformática en trabajos posteriores.
 
-> Far far away, behind the word mountains, far from the countries Vokalia and
-> Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-> right at the coast of the Semantics, a large language ocean.
+### Las reglas de Lipinski y la concentracion IC50
 
-It is a paradisematic country, in which roasted parts of sentences fly into your
-mouth. Even the all-powerful Pointing has no control about the blind texts it is
-an almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar.
+A la hora de refrescar conceptos relacionados al descubrimiento de medicinas estos 2 podrian estar encabezando la lista. 
 
-### According a funnily until pre-set or arrogant well cheerful
+En primer lugar están las relgas de Lipinski que son basicamente enunciados empiricos a cumplir por un compuesto quimico para poder ser considerado con algun tipo de actividad farmacologica. Se podria nombrar la masa molecular o el numero de atomos que aceptan enlaces o forman puentes de hidrogeno.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad
-Commas, wild Question Marks and devious Semikoli, but the Little Blind Text
-didn’t listen. She packed her seven versalia, put her initial into the belt and
-made herself on the way.
+Por otro lado se encuentra la concentracion inhibidora que un farmaco necesita para inhibir un proceso biologico (IC50). Esta medida es fundamental a la hora de determinar la eficiencia o toxicidad de algun compuesto de interes. Existen otras concentraciones o constantes relacionadas que brindan mayor informacion cuantitativa de las moleculas. 
 
-1.  So baboon this
-2.  Mounted militant weasel gregariously admonishingly straightly hey
-3.  Dear foresaw hungry and much some overhung
-4.  Rash opossum less because less some amid besides yikes jeepers frenetic
-    impassive fruitlessly shut
+#### Descriptores y Machine Learning
 
-When she reached the first hills of the Italic Mountains, she had a last view
-back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet
-Village and the subline of her own road, the Line Lane. Pityful a rhetoric
-question ran over her cheek, then she continued her way. On her way she met a
-copy.
+Una vez se hayan analizado las moleculas y evaluado si son inactivas o inactivas dependiendo de las variables consideradas, podrian realizare otro tipo de procesos informaticos para conocer mejor las relaciones y similitudes entre ligandos y targets. 
 
-> The copy warned the Little Blind Text, that where it came from it would have
-> been rewritten a thousand times and everything that was left from its origin
-> would be the word "and" and the Little Blind Text should turn around and
-> return to its own, safe country.
+Para lograr esto se llevan a cabo transformaciones de las moleculas mediante descriptores, los cuales convierten las propiedades quimicas de una molecula (como su estructura o numero de atomos) en numeros binarios (u otro tipo de representaciones) para poder modelarlas.
 
-But nothing the copy said could convince her and so it didn’t take long until a
-few insidious Copy Writers ambushed her, made her drunk with Longe and Parole
-and dragged her into their agency, where they abused her for their projects
-again and again. And if she hasn’t been rewritten, then they are still using
-her. Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts.
+Al tener las moleculas representadas en datos de entrada para modelos de Machine Learning es cuestion de escoguer el modelo mas adecuado o que vaya a tener una mejor reproducibilidad. En nuestro [repositorio](https://github.com/grammaloreto/Bioactivity) se escogió Random Forest.  
 
-#### Silent delightfully including because before one up barring chameleon
+##### El caso Particular de este estudio.
 
-Separated they live in Bookmarksgrove right at the coast of the Semantics, a
-large language ocean. A small river named Duden flows by their place and
-supplies it with the necessary regelialia. It is a paradisematic country, in
-which roasted parts of sentences fly into your mouth.
+El target que se escogió para este repositorio fue PSMB5, una sub-unidad del complejo de proteasomas (presente en todas las celulas humanas) que tiene entre muchas otras funciones la degradacion de proteinas dañadas o que ya no son necesarias. Este complejo ha sido ampliamente estudiado para tratar canceres, Alzheimer y Parkinson.
 
-Even the all-powerful Pointing has no control about the blind texts it is an
-almost unorthographic life One day however a small line of blind text by the
-name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox
-advised her not to do so, because there were thousands of bad Commas, wild
-Question Marks and devious Semikoli, but the Little Blind Text didn’t listen.
+Finalmente y como compuesto de interes entre las moleculas activas para este target se puede mencionar al Borteozomib, de gran accion citotoxica con celulas tumorales que inhiben la accion del proteasoma. Una vez se hayan obtenido buenos resultados con determinados complejos proteicos seria pertinente continuar ensayos con sustancias similares. 
 
-##### Wherever far wow thus a squirrel raccoon jeez jaguar this from along
-
-She packed her seven versalia, put her initial into the belt and made herself on
-the way. When she reached the first hills of the Italic Mountains, she had a
-last view back on the skyline of her hometown Bookmarksgrove, the headline of
-Alphabet Village and the subline of her own road, the Line Lane. Pityful a
-rhetoric question ran over her cheek, then she continued her way. On her way she
-met a copy.
-
-###### Slapped cozy a that lightheartedly and far
-
-The copy warned the Little Blind Text, that where it came from it would have
-been rewritten a thousand times and everything that was left from its origin
-would be the word "and" and the Little Blind Text should turn around and return
-to its own, safe country. But nothing the copy said could convince her and so it
-didn’t take long until a few insidious Copy Writers ambushed her, made her drunk
-with Longe and Parole and dragged her into their agency, where they abused her
-for their projects again and again.
+Puedes ver el repositorio completo en [GitHub](https://github.com/grammaloreto/Bioactivity)
