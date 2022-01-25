@@ -1,231 +1,40 @@
 ---
-title: Hello World
-date: "2015-05-01T22:12:03.284Z"
-description: "Hello World"
+title: Trabajando datos de Migración Colombia con fines turísticos
+date: "2021-11-04T22:12:03.284Z"
+description: Esta institucion aporta datos de ingresos-salidas de extranjeros, ciudadanos nacionales, los medios por los cuales ingresan, la ciudad de pernoctación entre otras. En base a estas variables proporcionadas cada mes se puede inferir y analizar informacion valiosa para el turismo que ha sido tan golpeado durante la pandemia. 
 ---
 
-This is my first post on my new fake blog! How exciting!
+### 2020, un año atípico... pero con datos de los que se puede aprender mucho
 
-I'm sure I'll write a lot more interesting things in the future.
+No es común y difícilmente se repetiran los datos turisticos (ingresos/salidas de visitantes) en los meses mas críticos de la pandemia. Al ser un evento nuevo y nunca antes experimentado en épocas modernas solo había opción de tomar medidas drásticas que con el tiempo han ido amoldandoce mas a una realidad que de por sí sigue latente y complicada en muchos aspectos.
 
-Oh, and here's a great quote from this Wikipedia on
-[salted duck eggs](https://en.wikipedia.org/wiki/Salted_duck_egg).
+>Una de de las cosas que nos ha dejado esta difícil coyuntura son las cifras y los datos que de por sí tienen una valor incalculable. 
 
-> A salted duck egg is a Chinese preserved food product made by soaking duck
-> eggs in brine, or packing each egg in damp, salted charcoal. In Asian
-> supermarkets, these eggs are sometimes sold covered in a thick layer of salted
-> charcoal paste. The eggs may also be sold with the salted paste removed,
-> wrapped in plastic, and vacuum packed. From the salt curing process, the
-> salted duck eggs have a briny aroma, a gelatin-like egg white and a
-> firm-textured, round yolk that is bright orange-red in color.
+Poniendonos un poco mas técnicos, al realizar diferentes test y pruebas llama la atención la reproducibilidad y confiabilidad de los datos en el momento mas algido de la pandemia. Por ejemplo realizando pruebas de coorelacion de Pearson entre las varialbes estudiadas se observa un mayor grado de intensidad en 2020 a comparacion de otros años recientes.
 
-![Chinese Salty Egg](./salty_egg.jpg)
+[Acá puedes ver los coeficientes de correlación completos](https://github.com/grammaloreto/Foreign-Tourism-Colombia-2018-2021/blob/main/correlations.ipynb)
 
-You can also write code blocks here!
+Estas relaciones son importantes para evaluar que tan dependientes o independientes pueden ser las variables y así poder realizar otras pruebas predictivas o que brinden insights mas valisosos.  
 
-```js
-const saltyDuckEgg = "chinese preserved food product"
-```
+### Modelo de Regresión para predecir el número de turistas de Sol y playa a partir del total de turistas extranjertos que entran al pais
 
-| Number | Title                                    | Year |
-| :----- | :--------------------------------------- | ---: |
-| 1      | Harry Potter and the Philosopher’s Stone | 2001 |
-| 2      | Harry Potter and the Chamber of Secrets  | 2002 |
-| 3      | Harry Potter and the Prisoner of Azkaban | 2004 |
+El modelo de Regresión Lineal se entrenó con datos que van desde el año 2017 al 2021. El objetivo: predecir el número de turistas extranjeros que viajan exclusivamente a visitar las principales ciudades y playas del Caribe colombiano (variable dependiente) a partir del número total de extranjeros que pueden ingresar al país (variable independiente). 
 
-[View raw (TEST.md)](https://raw.github.com/adamschwartz/github-markdown-kitchen-sink/master/README.md)
+La confiabilidad del modelo es bastante alta y las predicciones son bastante congreuntes con los datos reales. [El modelo completo está en este notebook.](https://github.com/grammaloreto/Foreign-Tourism-Colombia-2018-2021/blob/main/Linear%20model%20to%20predict%20the%20number%20of%20Sun%26beach%20visitors%20.ipynb)
 
-This is a paragraph.
+### Otros insights...
 
-    This is a paragraph.
+El año 2018 ha sido el mejor en cuanto a recepción de turistas extranjeros, siendo el mes de Diciembre el pico máximo con 309.737 visitantes. Los meses de Febrero y Marzo de ese mismo año fueron también excepcionales con un total de 304.751 y 306.250 visitas respectivamente. 
 
-# Header 1
+Los años 2017 y 2019 no fueron tan exitosos como el 2018, sin embargo no se puede desconocer que presentaron números de turistas extranjeros alentadores (4.880.536 y 5.063.308 respectivamente)
 
-## Header 2
+El año 2020 iniciaba a buen ritmo pero como consecuencia de las primeras medidas “anti-covid” caracterizadas por los cierres de fronteras y la puesta en tierra de muchos aviones hicieron que las proyecciones se vinieran a pique. Migracion Colombia reportó en abril del 2020 la entrada de 6 turistas extranjeros, 1 para el mes de mayo, 16 en junio como en agosto y 7 para julio. Sólo hasta septiembre de ese año se produjo un incremento de 2.901 turistas extranjeros ingresando nuevamente al país. 
 
-    Header 1
-    ========
+Vale la pena destacar a países como Estados Unidos y del Mercosur (Argentina-Brasil) como los principales en dinamizar el sector turistico en los ultimos años. 
 
-    Header 2
-    --------
+[Click para ver el repositorio de Github completo.](https://github.com/grammaloreto/Foreign-Tourism-Colombia-2018-2021)
 
-# Header 1
 
-## Header 2
 
-### Header 3
 
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1
-    ## Header 2
-    ### Header 3
-    #### Header 4
-    ##### Header 5
-    ###### Header 6
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-#### Header 4
-
-##### Header 5
-
-###### Header 6
-
-    # Header 1 #
-    ## Header 2 ##
-    ### Header 3 ###
-    #### Header 4 ####
-    ##### Header 5 #####
-    ###### Header 6 ######
-
-> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-    > Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.
-
-> ## This is a header.
->
-> 1. This is the first list item.
-> 2. This is the second list item.
->
-> Here's some example code:
->
->     Markdown.generate();
-
-    > ## This is a header.
-    > 1. This is the first list item.
-    > 2. This is the second list item.
-    >
-    > Here's some example code:
-    >
-    >     Markdown.generate();
-
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-
-```markdown
-- Red
-- Green
-- Blue
-
-* Red
-* Green
-* Blue
-
-- Red
-- Green
-- Blue
-```
-
-- `code goes` here in this line
-- **bold** goes here
-
-```markdown
-- `code goes` here in this line
-- **bold** goes here
-```
-
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-
-```markdown
-1. Buy flour and salt
-1. Mix together with water
-1. Bake
-```
-
-1. `code goes` here in this line
-1. **bold** goes here
-
-```markdown
-1. `code goes` here in this line
-1. **bold** goes here
-```
-
-Paragraph:
-
-    Code
-
-<!-- -->
-
-    Paragraph:
-
-        Code
-
----
-
----
-
----
-
----
-
----
-
-    * * *
-
-    ***
-
-    *****
-
-    - - -
-
-    ---------------------------------------
-
-This is [an example](http://example.com "Example") link.
-
-[This link](http://example.com) has no title attr.
-
-This is [an example][id] reference-style link.
-
-[id]: http://example.com "Optional Title"
-
-    This is [an example](http://example.com "Example") link.
-
-    [This link](http://example.com) has no title attr.
-
-    This is [an example] [id] reference-style link.
-
-    [id]: http://example.com "Optional Title"
-
-_single asterisks_
-
-_single underscores_
-
-**double asterisks**
-
-**double underscores**
-
-    *single asterisks*
-
-    _single underscores_
-
-    **double asterisks**
-
-    __double underscores__
-
-This paragraph has some `code` in it.
-
-    This paragraph has some `code` in it.
-
-![Alt Text](https://placehold.it/200x50 "Image Title")
-
-    ![Alt Text](https://placehold.it/200x50 "Image Title")
+ 
