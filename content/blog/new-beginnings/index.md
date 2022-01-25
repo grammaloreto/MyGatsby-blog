@@ -1,15 +1,12 @@
 ---
-title: New Beginnings
-date: "2015-05-28T22:40:32.169Z"
+title: Descubriendo medicinas con python
+date: "2022-01-24T22:40:32.169Z"
 description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and
-Consonantia, there live the blind texts. Separated they live in Bookmarksgrove
-right at the coast of the Semantics, a large language ocean. A small river named
-Duden flows by their place and supplies it with the necessary regelialia.
+El paradigma dominante en el descubrimiento de fármacos es el concepto de diseñar ligandos de máxima selectividad para actuar sobre objetivos específicos. Sin embargo, muchos fármacos eficaces actúan mediante la modulación de múltiples proteínas en lugar de targets únicos.
 
-## On deer horse aboard tritely yikes and much
+## Chembl y PubChem 
 
 The Big Oxmox advised her not to do so, because there were thousands of bad
 Commas, wild Question Marks and devious Semikoli, but the Little Blind Text

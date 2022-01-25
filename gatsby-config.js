@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `Gramma loreto Blog`,
     author: {
-      name: `Gramma loreto`,
-      summary: `que le gusta investigar y aprender sobre Data-Science, Tech & Environment!!.`,
+      name: `Gramma loreto.`,
+      summary: `Qué encontrarás en cada post? Artículos actuales de tecnología, programación, datos & ciencia!`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
