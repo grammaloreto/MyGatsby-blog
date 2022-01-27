@@ -28,7 +28,7 @@ const Bio = () => {
 
   // Set these values by editing "siteMetadata" in gatsby-config.js
   const author = data.site.siteMetadata?.author
-  const social = data.site.siteMetadata?.social
+  
 
   return (
     <div className="bio">
@@ -46,7 +46,7 @@ const Bio = () => {
         <p>
           Todo el contenido es escrito por <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
+          <a href={`https://grammaloreto.netlify.app/`}>
             También puedes ver mi Portafolio!
           </a>
         </p>
