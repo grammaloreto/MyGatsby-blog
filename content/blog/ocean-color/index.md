@@ -1,6 +1,6 @@
 ---
 title: Ocean Color... de qué color es el mar?
-date: "2022-04-19T09:12:03.284Z"
+date: "2022-04-18T09:40:32.169Z"
 description: El mar de los 7 colores, rojo, negro. Cada tonalidad presente en el océano tiene su explicación. En síntesis todo depende de cómo interactúa la luz con los materiales del agua. Y es posible ir mas allá, por medio de los colores del océano y sus herramientas asociadas se puede determinar la calidad del agua, concentraciones de clorofila (plancton) o floraciones de algas nocivas. 
 ---
 ## Qué es Ocean Color?

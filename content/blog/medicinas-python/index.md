@@ -1,6 +1,6 @@
 ---
 title: Cómo descubrir nuevas medicinas con Python
-date: "2022-01-24T22:40:32.169Z"
+date: "2022-02-02T22:40:32.169Z"
 description: Los ensayos farmacológicos y gran parte del desarrollo de nuevas medicinas se está transformando con la accesibilidad de herramientas e información al alcance de todos.  
 ---
 
