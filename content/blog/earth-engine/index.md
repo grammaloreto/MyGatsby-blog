@@ -1,6 +1,6 @@
 ---
 title: Google Earth Engine (GEE) para investigación remota
-date: "2021-12-13T23:46:37.121Z"
+date: "2022-01-13T23:46:37.121Z"
 description: Los satélites u otros objetos de detección remota generan una enorme cantidad de datos por hora/día/semana/mes/año. Google Earth Engine (GEE) es un excelente lugar para obtener datos de calidad de este tipo a través de su editor de código javascript o API de python.
 ---
 

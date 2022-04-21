@@ -4,11 +4,12 @@ date: "2020-08-01T23:46:37.121Z"
 description: Es una especie de pez arrecifal que habita aguas del Caribe colombiano.
 ---
 
-## Experiencia:
+## Experiencia
 
 - Data Science
 - Investigación *in situ* con especies marinas
 - Laboratorios
+- Gestión Ambiental
 - Educación
 - Expediciones
 - Equipos multiculturales

@@ -3,7 +3,7 @@ module.exports = {
     title: `Gramma loreto`,
     author: {
       name: `Bienvenido/a!`,
-      summary: `a mi blog. Si quieres empezar conociendo un poco mas de Gramma loreto`,
+      summary: `Si quieres empezar conociendo un poco mas de Gramma loreto`,
     },
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
