@@ -21,23 +21,7 @@ description: Es una especie de pez arrecifal que habita aguas del Caribe colombi
 - Procesamiento de lenguaje natural (nlp)
 - Bioinformática
 - Evolución
-- Código
 - Correr
-
-## Estudios
-
-Ciencias Ambientales + Maestría en Empresa
-
-## Habilidades Técnicas
-
-- **Python:** 
-   - Librerias para Data Science y Machine Learning
-   - Frameworks: Django, Flask, FastAPI
-- **Bases de Datos:**
-   - PostgresSQL
-   - MongoDB, Firebase
-   - ChEMBL, PubChem (moléculas) 
-- **Git, Anaconda, Linux**    
 
 ## Que busca 
 
