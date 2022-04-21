@@ -46,7 +46,7 @@ const Bio = () => {
         <p>
           <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://grammaloretoblog.netlify.app/gramma-loreto/`}>
+          <a href={`https://grammaloreto.netlify.app/gramma-loreto/`}>
           👉aquí👈
           </a>
         </p>
