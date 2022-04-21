@@ -16,7 +16,7 @@ Dado que los datos textuales se generan de manera ubicua con la forma actual en 
 
 Por ejemplo, el marketing tienden a utilizar NLP para capturar opiniones y comportamientos de los clientes. La contabilidad y las finanzas se centran en la extracción de información de las empresas (informes, patentes) para seguirlas con mayor precisión.
 
-Las redes sociales son un común denominador en todos los ámbitos y la extracción de su información con los sentimientos que la acompañan son de extrema valía para comprender clientes, inversionistas, mercados o empresas. 
+Las redes sociales son un común denominador en todos los ámbitos y la variedad de expresiones con los sentimientos que las acompañan, son de extrema valía para comprender clientes, inversionistas, mercados o empresas. 
 
 En términos generales los algoritmos de clasificación, el modelado de temas (topic modeling) y el análisis de sentimientos son los métodos más utilizados en la investigación.
 
@@ -24,30 +24,32 @@ En términos generales los algoritmos de clasificación, el modelado de temas (t
 
 ![](playas.jpeg)
 
-Las playas y su gestión al igual que otros campos que empiezan a aplicar NLP están aprovechando los datos de las redes sociales para evaluar como las personas interactúan, piensan o se relacionan con estos lugares.
+Las playas y su gestión al igual que otros campos que empiezan a aplicar NLP, están aprovechando los datos de las redes sociales para evaluar como las personas interactúan, piensan o se relacionan con estos lugares.
 
 Los [análisis de sentimientos](https://grammaloreto.netlify.app/analisis-sent/) son la aplicación más común de examinar las actitudes y emociones de los visitantes hacia cierto punto del arenal, de algún servicio o experiencia.
 
 [Ver Análisis de Sentimientos de Playas Latinoamericanas en GitHub](https://github.com/grammaloreto/BeachSentimentAnalysis)
 
-Los datos generados a partir de las redes sociales pueden usarse para complementar otros enfoques para el monitoreo a gran escala de los paisajes costeros, incluida la identificación de áreas prioritarias para la gestión activa utilizando un enfoque rápido, remoto y de bajo costo.
+Los datos generados a partir de las redes sociales pueden usarse para complementar otros enfoques para el monitoreo a gran escala de los paisajes costeros, incluida la identificación de áreas prioritarias para la gestión activa, utilizando un enfoque rápido, remoto y de bajo costo.
 
-Sin embargo hay mucho por hacer. Para playas que no cuentan con ningun tipo de lineamiento estandarizado o que genere algún tipo de certificación podría ser un buen piloto a incorporar.
+Sin embargo hay mucho por hacer. Para playas que no cuentan con ningun tipo de lineamiento estandarizado o que genere algún tipo de certificación, podría ser un buen piloto a incorporar.
 
 A parte de la informacion generada en plataformas sociales, sería valioso incorporar otros tipos de análisis NLP en la gestion de playas.
 
-Documentación de certificaciones (ISO, turísticas, destinos inteligentes) políticas de manejo, ley de costas, auditorías. Existen innumerables recursos de texto asociado que pueden brindar aplicaciones mas robusta y estables para este contexto.
+Documentación de certificaciones (ISO, turísticas, destinos inteligentes) políticas de manejo, ley de costas, auditorías. Existen innumerables recursos de texto asociado que pueden brindar instrumentos mas robustos y estables.
 
 El reto radica en 3 grandes puntos:
 - Articulación
 - Recopilacion de Datos
 - Capacitación
 
-Para muchos es una herramienta desconocida. Se necesita mas divulgación y comunicación entre aquellos que tengan alúun tipo de conocimiento relacionado. 
+Para muchos es una herramienta desconocida. Se necesita mas divulgación y comunicación entre aquellos que tengan algún tipo de conocimiento relacionado. 
 
-Es importante recopilar datos de calidad y aplicables. Al no encontrarse de forma convencional en la mayoría de casos, es importante saber hacia donde dirigir los esfuerzos.
+Es importante recopilar datos de calidad y aplicables. Al no encontrarse de forma convencional en la mayoría de casos, es vital saber hacia donde dirigir los esfuerzos.
 
-Finalmente la capacitación del talento humano y los recursos físicos(computacionales, cámaras, sensores) que faciliten y generen calidad en los resultados, determinarán si el modelo NLP en la gestion de playas será exitoso, fallido, tomará de tiempo o nunca se dará.  
+Finalmente la capacitación del talento humano y la correcta manipulación de recursos físicos(computacionales) que faciliten y generen calidad en los resultados. 
+
+Estas variables y la forma en que siga desarrollándose en otros contextos, determinarán si el modelo NLP en la gestion de playas será exitoso, fallido, tomará de tiempo o nunca se dará.  
 
 
 
