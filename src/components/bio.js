@@ -44,10 +44,10 @@ const Bio = () => {
       />
       {author?.name && (
         <p>
-          Hola! <strong>{author.name}</strong> {author?.summary || null}
+          <strong>{author.name}</strong> {author?.summary || null}
           {` `}
-          <a href={`https://github.com/grammaloreto`}>
-            GitHub
+          <a href={`https://grammaloretoblog.netlify.app/ocean-color/`}>
+          👉aquí👈
           </a>
         </p>
       )}
