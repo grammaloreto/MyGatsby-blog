@@ -1,6 +1,6 @@
 ---
 title: Trabajando datos de Migración Colombia con fines turísticos
-date: "2021-11-04T22:12:03.284Z"
+date: "2022-01-30T22:12:03.284Z"
 description: Esta institución aporta datos de ingreso-salida de extranjeros, ciudadanos nacionales, los medios por los cuales ingresan, la ciudad de pernoctación entre otras. En base a estas variables proporcionadas cada mes, es posible analizar y sacar conclusiones valiosas para el turismo que ha sido tan golpeado durante la pandemia. 
 ---
 

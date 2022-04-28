@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Gramma loreto`,
+    title: `Gramma loreto blog`,
     author: {
       name: `Bienvenido/a!`,
       summary: `Si quieres empezar conociendo un poco mas de Gramma loreto`,
