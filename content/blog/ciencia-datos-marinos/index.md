@@ -1,7 +1,7 @@
 ---
 title: Ciencia de Datos Marinos ¿Nueva disciplina?
 date: "2022-03-26T00:46:37.121Z"
-description: Cada vez son más los datos que se generan en distintos campos y en la mayoría de casos no pueden ser aprovechados por el desconocimiento de herramientas asociadas, por el costo de su procesamiento o por la dificultad de poder acceder a ellos. El "mix" de la Ciencia de los Sistemas Terrestres con el actual y vigente Data Science puede ser una respuesta para una nueva forma de adquirir conocimiento de nuestros océanos y todo aquello que puede girar en torno a ellos.   
+description: La heterogeneidad de los datos marinos hace que en muchos casos no puedan ser aprovechados e interpretados. El desconocimiento de herramientas asociadas, el costo de su procesamiento (big data) o quizá su accesibilidad son algunas de las causas. Como respuesta a estas falencias se están explorando, experimentando e incorporando métodos de Ciencia de Datos a las distintas ramas teóricas oceánicas, para así generar nuevas formas de conocimiento y modelamiento.   
 ---
 
 ## Qué se puede entender como Ciencia de Datos Marinos (CDM)?
@@ -42,7 +42,7 @@ Los grandes avances en la capacidad de observación automatizada/remota y la rec
 
 A medida que se mida y cartografíe una mayor parte del océano y que el modelado aumente en su complejidad, aumentará la necesidad de herramientas y métodos innovadores. 
 
->A pesar de los beneficios obvios de unir fuerzas de ciencias marinas con la de datos datos, existen retos a superar.
+>A pesar de los beneficios obvios de unir fuerzas de ciencias marinas con la de datos, existen retos a superar.
 
 Ya el primer paso está. La definición y educación de CDM. El cambio estructural es el segundo paso necesario y en el que podríamos estar. El apoyo a esta estructura puede provenir de la generación de nuevos proyectos, la asignación de puestos permanentes y las bases de un camino hacia una carrera académica. 
 
